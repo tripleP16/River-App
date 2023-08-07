@@ -29,6 +29,11 @@ class _HomeWidget extends StatelessWidget {
           subtitle: 'Un estado simple',
           location: '/state-provider',
         ),
+        _CustomListTile(
+          title: 'Future Provider',
+          subtitle: 'Un estado que se resuelve en el futuro + family',
+          location: '/future-provider',
+        ),
       //
       ],
     );

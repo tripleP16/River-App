@@ -18,5 +18,13 @@ final appRouter = GoRouter(
             path: '/future-provider',
             pageBuilder: (context, state) => const MaterialPage(child: PokemonScreen()),
         ),
+        GoRoute(
+          path: '/stream-provider',
+          pageBuilder: (context, state) => const MaterialPage(child: StreamScreen()),
+        ),
+        GoRoute(
+          path: '/state-notifier',
+          pageBuilder: (context, state) => const MaterialPage(child: TodosScreen()),
+        ),
     ]
 );

@@ -34,6 +34,16 @@ class _HomeWidget extends StatelessWidget {
           subtitle: 'Un estado que se resuelve en el futuro + family',
           location: '/future-provider',
         ),
+        _CustomListTile(
+          title: 'Stream Provider',
+          subtitle: 'Un simple stream',
+          location: '/stream-provider',
+        ),
+        _CustomListTile(
+          title: 'State Notifier',
+          subtitle: 'Un estado que se actualiza con un StateNotifier',
+          location: '/state-notifier',
+        ),
       //
       ],
     );

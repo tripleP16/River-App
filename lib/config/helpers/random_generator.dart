@@ -5,4 +5,9 @@ class RandomGenerator {
     final randomNames = RandomNames(Zone.catalonia);
     return randomNames.fullName();
   }
+
+
+  static Stream<String> getRandomNameStream() {
+    return Stream.periodic(const Duration(seconds: 2), (_) => getRandomName());
+  }
 }
